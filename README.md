@@ -14,7 +14,7 @@ Using the SFTTrainer from the TRL library, I conducted supervised fine-tuning. T
 •  Deployment and User Interface: The final model and RAG system were deployed using Flask to create a user-friendly web interface.
 
 # Hugging face model repositories:
-# fine tuned: https: //huggingface.co/HannahJohn/finetuned_llama2-7b-chat-hf/tree/main
+# fine tuned: https://huggingface.co/HannahJohn/finetuned_llama2-7b-chat-hf/tree/main
 # openvino int 8: https://huggingface.co/HannahJohn/openvino-llama2_chat-int4_sym/tree/main
 # openvino int4 sys: https://huggingface.co/HannahJohn/openvino-llama2_chat-int4_sym/tree/main
 
