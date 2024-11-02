@@ -6,7 +6,7 @@ This project focuses on developing a large language model (LLM)-based chatbot to
 •	mpingale/mental-health-chat-dataset
 •	Amod/mental_health_counseling_conversations
 •	heliosbrahma/mental_health_chatbot_dataset
-Using the SFTTrainer from the TRL library, I conducted supervised fine-tuning. This involved training the model on the prepared datasets while monitoring performance against evaluation datasets. The trainer incorporated the specified PeftConfig for LoRA-based training in full bit precision(fp 52) and managed sequences up to the defined maximum length (max_seq_length=512).
+Using the SFTTrainer from the TRL library, I conducted supervised fine-tuning. This involved training the model on the prepared datasets while monitoring performance against evaluation datasets. The trainer incorporated the specified PeftConfig for LoRA-based training in full bit precision(fp 32) and managed sequences up to the defined maximum length (max_seq_length=512).
  
 •  Optimization Using Intel® OpenVINO™: The fine-tuned model was converted to the OpenVINO format to optimize inference speed on CPU. The model was quantized to 4 and 8-bit precisions using Intel® OpenVINO™'s quantization tools, ensuring efficient performance without significant loss of accuracy.
 
